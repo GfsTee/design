@@ -1,0 +1,117 @@
+/* 
+    background: #070707;
+    background: #6e6864;
+    background: #9d9f9f;
+    background: #ac8059;
+    background: #f4f7f8;
+    background: #d1c2a9; */
+
+body {
+    height: 100vh;
+    background: #070707;
+    color: #9d9f9f;
+    margin: 0;
+}
+header {
+    position: relative;
+    height: 5vh;
+    border-bottom: 1px solid #9d9f9f;
+}
+a {
+    color: #9d9f9f;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #f4f7f8;
+}
+header h1 {
+    position: absolute;
+    left: 3%;
+    top:0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+nav li {
+    position: absolute;
+    top: 8%
+}
+nav li:nth-of-type(1) {
+    left: 7%
+}
+nav li:nth-of-type(2) {
+    left: 40%
+}
+nav li:nth-of-type(3) {
+    left: 50%
+}
+nav li:nth-of-type(4) {
+    left: 60%
+}
+nav li:nth-of-type(5) {
+    left: 70%
+}
+nav li:nth-of-type(6) {
+    left: 80%
+}
+
+main {
+    position: relative;
+    height: 90vh;
+}
+article {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 15%;
+}
+article h1 {
+    font-size: 3em;
+}
+main div {
+    position: absolute;
+    height: 75vh;
+    width: 20%;
+    top: 10%;
+}
+main div:nth-of-type(1){
+    background: url(https://i.pinimg.com/originals/cb/a2/12/cba212eed69977e8935c472cccd2a0d6.jpg) center/cover no-repeat;
+    right: 0;
+} 
+main div:nth-of-type(2){
+    background: url(https://i.pinimg.com/736x/46/5d/71/465d7140a2cac9b6ea78feabd5000669--grey-interior-design-dark-grey-interior.jpg) center/cover no-repeat;
+    right: 22%;
+} 
+main div:nth-of-type(3){
+    background: url(https://www.digsdigs.com/photos/2016/10/dark-alluring-bedroom-with-very-simple-and-minimalist-decor.jpg) center/cover no-repeat;
+    right: 44%;
+} 
+
+footer {
+    position: relative;
+}
+footer a {
+    position: absolute;
+}
+footer a:nth-of-type(1) {
+    left: 3%
+}
+footer a:nth-of-type(2) {
+    left: 5%
+}
+footer a:nth-of-type(3) {
+    left: 7%
+}
+footer a:nth-of-type(4) {
+    right: 15%
+}
+footer a:nth-of-type(5) {
+    right: 10%
+}
+footer a:nth-of-type(5), footer a:nth-of-type(4) {
+    border: 1px solid #d1c2a9;
+    border-radius: 50%;
+    padding: 3px 10px
+}
